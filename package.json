@@ -1,0 +1,15 @@
+{
+	"name": "SwitchMitmServer",
+	"version": "1.0.0",
+	"description": "A Switch MITM server",
+	"main": "index.js",
+	"bin": {
+		"mitmserver": "./index.js"
+	},
+	"keywords": [],
+	"author": "TheGreatRambler",
+	"license": "MIT",
+	"dependencies": {
+		"http-mitm-proxy": "^0.8.2"
+	}
+}
