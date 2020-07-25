@@ -1,2 +1,4 @@
 .http-mitm-proxy
 node_modules
+keyfile.key
+certfile.cert
