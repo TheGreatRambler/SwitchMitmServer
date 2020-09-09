@@ -11,6 +11,7 @@
 	"license": "MIT",
 	"dependencies": {
 		"@msgpack/msgpack": "^1.12.2",
-		"http-mitm-proxy": "^0.8.2"
+		"http-mitm-proxy": "^0.8.2",
+		"ip": "^1.1.5"
 	}
 }
