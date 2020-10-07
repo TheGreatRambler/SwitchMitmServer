@@ -1,4 +1,7 @@
 .http-mitm-proxy
 node_modules
-keyfile.key
-certfile.cert
+switch.key
+switch.crt
+outputlog.txt
+console_data
+nx_tls_client_cert.pfx

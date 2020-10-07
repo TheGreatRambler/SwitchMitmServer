@@ -1,0 +1,76 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1/win-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {},
+    ".NETCoreApp,Version=v3.1/win-x64": {
+      "NxCertDump/1.0.0": {
+        "dependencies": {
+          "LibHac": "0.12.0",
+          "Portable.BouncyCastle": "1.8.6.7"
+        },
+        "runtime": {
+          "NxCertDump.dll": {}
+        }
+      },
+      "LibHac/0.12.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0-preview.7.20364.11"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/LibHac.dll": {
+            "assemblyVersion": "0.12.0.0",
+            "fileVersion": "0.12.0.0"
+          }
+        }
+      },
+      "Portable.BouncyCastle/1.8.6.7": {
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.8.6.0",
+            "fileVersion": "1.8.6.7"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/5.0.0-preview.7.20364.11": {
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.36411"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NxCertDump/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibHac/0.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pZgDiOYI7EdUIXu7S3OwL/+aT6W5luGqJRXBSErdLVJwOEQTISeiMyQZzd2bnxfqLiSyTGp3By8mftC5R8cKUw==",
+      "path": "libhac/0.12.0",
+      "hashPath": "libhac.0.12.0.nupkg.sha512"
+    },
+    "Portable.BouncyCastle/1.8.6.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RBCAkzkBkur4w1YXFpwVdYvdm4ez7PUNyl5DsqPKDe0QSoH9xt6Mwzy1NSFSrrw4T7bCkxi06nSHCuBEuMEgfw==",
+      "path": "portable.bouncycastle/1.8.6.7",
+      "hashPath": "portable.bouncycastle.1.8.6.7.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/5.0.0-preview.7.20364.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6oEx3elihyJmDIcofF5g5AB2hSk0P+lc9WIyDEEVxi6BlBk1xkoOik/r16YlLT/rq/a7rUdyXzbRtabH9N+Dxg==",
+      "path": "system.runtime.compilerservices.unsafe/5.0.0-preview.7.20364.11",
+      "hashPath": "system.runtime.compilerservices.unsafe.5.0.0-preview.7.20364.11.nupkg.sha512"
+    }
+  }
+}
